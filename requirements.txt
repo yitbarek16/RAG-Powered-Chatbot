@@ -1,0 +1,27 @@
+# Core
+pandas
+numpy
+tqdm
+
+# Visualization (for EDA)
+matplotlib
+seaborn
+
+# Text Preprocessing & Chunking
+langchain
+nltk
+
+# Embeddings
+sentence-transformers==2.2.2
+
+# FAISS (vector store)
+faiss-cpu  
+# LLMs & Transformers
+transformers==4.41.1
+torch  # required for sentence-transformers and transformers
+
+# RAG Interface
+scikit-learn
+
+# UI
+gradio==4.28.3
